@@ -150,6 +150,9 @@
       "CofferNameHint": "开始输入宝箱名称以搜索",
       "AddCoffer": "添加宝箱",
       "DiscardItems": "丢弃物品",
+      "Desynth": {
+        "NQOnly": "只分解NQ物品"
+      },
       "AutoDesynth": "自动分解",
       "OnlySkillUps": "仅提升分解熟练度时分解",
       "ItemLevelLimit": "物品等级限制",
@@ -275,7 +278,8 @@
         "Kill_PC": "关闭电脑",
         "Start_AR_Night_Mode": "启动 AutoRetainer 夜间模式"
       },
-      "Jobs": {
+      "JobWithRole": {
+        "None": "None",
         "All": "所有职业 (All)",
         "Tanks": "防护职业 (T)",
         "Healers": "治疗职业 (H)",
