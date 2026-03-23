@@ -601,7 +601,8 @@ namespace AutoDuty.Managers
 
             if (EzThrottler.Throttle("Interactable", 1000))
             {
-                if (!TryGetObjectByDataId(gameObject?.BaseId ?? 0, igo => igo.IsTargetable, out gameObject)) return true;
+                if (!TryGetObjectByDataId(gameObject?.BaseId ?? 0, igo => igo.IsTargetable, out gameObject)) 
+                    return true;
                 
                 if (GetBattleDistanceToPlayer(gameObject!) > 2f)
                 {
@@ -660,6 +661,12 @@ namespace AutoDuty.Managers
                     }
                 }
             }, "Interactable-LoopCheck");
+            taskManager.EnqueueDelay(100);
+            taskManager.Enqueue(() =>
+                                {
+                                    if (VNavmesh_IPCSubscriber.Path_IsRunning)
+                                        VNavmesh_IPCSubscriber.Path_Stop();
+                                });
         }
 
         public unsafe void Interactable(PathAction action)
