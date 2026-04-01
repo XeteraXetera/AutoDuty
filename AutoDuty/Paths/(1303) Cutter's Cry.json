@@ -21,7 +21,7 @@
         "Z": 104.6609
       },
       "Arguments": [
-        "20"
+        "50"
       ],
       "Conditions": [],
       "Note": ""
@@ -35,7 +35,7 @@
         "Z": 112.22568
       },
       "Arguments": [
-        "40"
+        "50"
       ],
       "Conditions": [],
       "Note": ""
@@ -77,7 +77,7 @@
         "Z": 172.49214
       },
       "Arguments": [
-        "20"
+        "50"
       ],
       "Conditions": [],
       "Note": ""
@@ -91,7 +91,7 @@
         "Z": 160.4139
       },
       "Arguments": [
-        "40"
+        "50"
       ],
       "Conditions": [],
       "Note": ""
@@ -281,7 +281,7 @@
         "Z": -50.308716
       },
       "Arguments": [
-        "20"
+        "25"
       ],
       "Conditions": [],
       "Note": ""
@@ -307,7 +307,7 @@
         "Z": -97.31757
       },
       "Arguments": [
-        "20"
+        "25"
       ],
       "Conditions": [],
       "Note": ""
@@ -349,7 +349,7 @@
         "Z": -183.82678
       },
       "Arguments": [
-        "20"
+        "25"
       ],
       "Conditions": [],
       "Note": ""
@@ -403,7 +403,7 @@
         "Z": -225.98412
       },
       "Arguments": [
-        "20"
+        "25"
       ],
       "Conditions": [],
       "Note": ""
@@ -537,6 +537,30 @@
       "Arguments": [
         "FALSE"
       ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "TreasureCoffer",
+      "Position": {
+        "X": -117.47775,
+        "Y": -5.889226,
+        "Z": -217.70515
+      },
+      "Arguments": [],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "TreasureCoffer",
+      "Position": {
+        "X": -233.06232,
+        "Y": -5.57749,
+        "Z": -75.191826
+      },
+      "Arguments": [],
       "Conditions": [],
       "Note": ""
     },
