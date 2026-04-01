@@ -42,6 +42,20 @@
     },
     {
       "Tag": "Treasure",
+      "Name": "Interactable",
+      "Position": {
+        "X": -150.22012,
+        "Y": -9.000017,
+        "Z": 61.941837
+      },
+      "Arguments": [
+        "2000418"
+      ],
+      "Conditions": [],
+      "Note": "The Helm of Might"
+    },
+    {
+      "Tag": "Treasure",
       "Name": "KillInRange",
       "Position": {
         "X": -135.39299,
@@ -67,6 +81,20 @@
       ],
       "Conditions": [],
       "Note": "Treasure Coffer - Listed as Interactable since it's position is not static."
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "Interactable",
+      "Position": {
+        "X": -149.56227,
+        "Y": -11.610185,
+        "Z": -61.80998
+      },
+      "Arguments": [
+        "2000417"
+      ],
+      "Conditions": [],
+      "Note": "The Gem of Affluence"
     },
     {
       "Tag": "Comment",
@@ -119,6 +147,62 @@
       ],
       "Conditions": [],
       "Note": ""
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 7.4527836,
+        "Y": -19.000002,
+        "Z": 28.144012
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": "Helps avoid slightly janky pathing."
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "Interactable",
+      "Position": {
+        "X": 9.032339,
+        "Y": -19.000006,
+        "Z": 52.85779
+      },
+      "Arguments": [
+        "2000415"
+      ],
+      "Conditions": [],
+      "Note": "The Flame of Magic"
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "Interactable",
+      "Position": {
+        "X": 8.983742,
+        "Y": -19.000004,
+        "Z": -52.890522
+      },
+      "Arguments": [
+        "2000416"
+      ],
+      "Conditions": [],
+      "Note": "The Fruit of Knowledge"
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 10.61312,
+        "Y": -19.000078,
+        "Z": -27.9708
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": "Helps avoid slightly janky pathing."
     },
     {
       "Tag": "None",
@@ -202,9 +286,9 @@
       "Tag": "Treasure",
       "Name": "Interactable",
       "Position": {
-        "X": 60.84028,
-        "Y": -18.000008,
-        "Z": 21.169098
+        "X": 58.97133,
+        "Y": -18.000013,
+        "Z": 20.693117
       },
       "Arguments": [
         "2000423"
@@ -213,15 +297,15 @@
       "Note": "Stone Pedestal"
     },
     {
-      "Tag": "Unsynced, Treasure",
-      "Name": "StopForCombat",
+      "Tag": "Treasure",
+      "Name": "SelectString",
       "Position": {
         "X": 0.0,
         "Y": 0.0,
         "Z": 0.0
       },
       "Arguments": [
-        "TRUE"
+        "1"
       ],
       "Conditions": [],
       "Note": ""
@@ -238,7 +322,7 @@
         ""
       ],
       "Conditions": [],
-      "Note": ""
+      "Note": "Helps avoid slightly janky pathing."
     },
     {
       "Tag": "Treasure",
@@ -256,15 +340,29 @@
       "Tag": "Treasure",
       "Name": "Interactable",
       "Position": {
-        "X": 61.4344,
+        "X": 60.546787,
         "Y": -18.000008,
-        "Z": -20.93435
+        "Z": -19.517649
       },
       "Arguments": [
         "2000425"
       ],
       "Conditions": [],
       "Note": "Stone Pedestal"
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "SelectString",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "0"
+      ],
+      "Conditions": [],
+      "Note": ""
     },
     {
       "Tag": "Treasure",
@@ -282,15 +380,29 @@
       "Tag": "Treasure",
       "Name": "Interactable",
       "Position": {
-        "X": 116.36426,
-        "Y": -4.000005,
-        "Z": -23.000778
+        "X": 115.53184,
+        "Y": -4.0000043,
+        "Z": -21.766165
       },
       "Arguments": [
         "2000419"
       ],
       "Conditions": [],
       "Note": "Stone Pedestal"
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "SelectString",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "2"
+      ],
+      "Conditions": [],
+      "Note": ""
     },
     {
       "Tag": "Treasure",
@@ -322,15 +434,29 @@
       "Tag": "Treasure",
       "Name": "Interactable",
       "Position": {
-        "X": 116.718544,
-        "Y": -3.9999995,
-        "Z": 22.838966
+        "X": 116.09554,
+        "Y": -4.0,
+        "Z": 21.546297
       },
       "Arguments": [
         "2000421"
       ],
       "Conditions": [],
       "Note": "Stone Pedestal"
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "SelectString",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "3"
+      ],
+      "Conditions": [],
+      "Note": ""
     },
     {
       "Tag": "Treasure",
@@ -359,20 +485,6 @@
       "Note": "Helps avoid slightly janky pathing."
     },
     {
-      "Tag": "Unsynced, Treasure",
-      "Name": "StopForCombat",
-      "Position": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
-      },
-      "Arguments": [
-        "FALSE"
-      ],
-      "Conditions": [],
-      "Note": ""
-    },
-    {
       "Tag": "Unsynced",
       "Name": "StopForCombat",
       "Position": {
@@ -382,6 +494,62 @@
       },
       "Arguments": [
         "TRUE"
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "Interactable",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "2000428"
+      ],
+      "Conditions": [],
+      "Note": "Right Pan"
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "SelectString",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "3"
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "Interactable",
+      "Position": {
+        "X": 188.36029,
+        "Y": -4.0000153,
+        "Z": -0.0977401
+      },
+      "Arguments": [
+        "2000427"
+      ],
+      "Conditions": [],
+      "Note": "Left Pan"
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "SelectString",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "2"
       ],
       "Conditions": [],
       "Note": ""
@@ -399,6 +567,42 @@
       ],
       "Conditions": [],
       "Note": "The Scales of Judgment"
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "TreasureCoffer",
+      "Position": {
+        "X": 196.33774,
+        "Y": -4.000017,
+        "Z": -37.119
+      },
+      "Arguments": [],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "TreasureCoffer",
+      "Position": {
+        "X": 188.4359,
+        "Y": -4.000017,
+        "Z": -40.084858
+      },
+      "Arguments": [],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Treasure",
+      "Name": "TreasureCoffer",
+      "Position": {
+        "X": 187.7216,
+        "Y": -4.000017,
+        "Z": -45.79171
+      },
+      "Arguments": [],
+      "Conditions": [],
+      "Note": ""
     },
     {
       "Tag": "Comment",
