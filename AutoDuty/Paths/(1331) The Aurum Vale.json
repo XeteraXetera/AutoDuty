@@ -339,6 +339,18 @@
       "Note": ""
     },
     {
+      "Tag": "Treasure",
+      "Name": "TreasureCoffer",
+      "Position": {
+        "X": -211.42831,
+        "Y": -26.089367,
+        "Z": -210.59534
+      },
+      "Arguments": [],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
       "Tag": "None",
       "Name": "KillInRange",
       "Position": {
