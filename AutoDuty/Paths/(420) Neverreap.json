@@ -77,9 +77,9 @@
       "Tag": "None",
       "Name": "WaitFor",
       "Position": {
-        "X": -134.45265,
-        "Y": 16.013573,
-        "Z": 294.22574
+        "X": 0,
+        "Y": 0,
+        "Z": 0
       },
       "Arguments": [
         "isReady"
@@ -143,9 +143,9 @@
       "Tag": "None",
       "Name": "WaitFor",
       "Position": {
-        "X": -59.006653,
-        "Y": 31.845581,
-        "Z": 260.54773
+        "X": 0,
+        "Y": 0,
+        "Z": 0
       },
       "Arguments": [
         "isReady"
@@ -329,9 +329,9 @@
       "Tag": "None",
       "Name": "WaitFor",
       "Position": {
-        "X": 37.67456,
-        "Y": 38.223755,
-        "Z": 223.13257
+        "X": 0,
+        "Y": 0,
+        "Z": 0
       },
       "Arguments": [
         "isReady"
@@ -411,9 +411,9 @@
       "Tag": "None",
       "Name": "WaitFor",
       "Position": {
-        "X": 91.17261,
-        "Y": 48.142212,
-        "Z": 185.01562
+        "X": 0,
+        "Y": 0,
+        "Z": 0
       },
       "Arguments": [
         "isReady"
@@ -607,9 +607,9 @@
       "Tag": "None",
       "Name": "Wait",
       "Position": {
-        "X": 165.87512,
-        "Y": 60.38555,
-        "Z": -128.47278
+        "X": 0,
+        "Y": 0,
+        "Z": 0
       },
       "Arguments": [
         "4000"
@@ -697,9 +697,9 @@
       "Tag": "None",
       "Name": "WaitFor",
       "Position": {
-        "X": 172.13696,
-        "Y": 58.487793,
-        "Z": -325.73438
+        "X": 0,
+        "Y": 0,
+        "Z": 0
       },
       "Arguments": [
         "isReady"
