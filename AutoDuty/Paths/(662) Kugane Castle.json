@@ -120,9 +120,9 @@
       "Tag": "None",
       "Name": "Wait",
       "Position": {
-        "X": 0,
-        "Y": 0,
-        "Z": 0
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
       },
       "Arguments": [
         "1000"
@@ -200,9 +200,9 @@
       "Tag": "None",
       "Name": "WaitFor",
       "Position": {
-        "X": 0,
-        "Y": 0,
-        "Z": 0
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
       },
       "Arguments": [
         "isReady"
@@ -504,6 +504,20 @@
       },
       "Arguments": [
         ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "W2W",
+      "Name": "StopForCombat",
+      "Position": {
+        "X": 280.0,
+        "Y": -73.99999,
+        "Z": 310.0
+      },
+      "Arguments": [
+        "true"
       ],
       "Conditions": [],
       "Note": ""
