@@ -82,7 +82,7 @@
         "Z": 0.0
       },
       "Arguments": [
-        "isReady"
+        "IsReady"
       ],
       "Conditions": [],
       "Note": ""
@@ -164,7 +164,7 @@
         "Z": 0.0
       },
       "Arguments": [
-        "isReady"
+        "IsReady"
       ],
       "Conditions": [],
       "Note": ""
@@ -276,7 +276,7 @@
         "Z": 0.0
       },
       "Arguments": [
-        "isReady"
+        "IsReady"
       ],
       "Conditions": [],
       "Note": ""
@@ -358,7 +358,7 @@
         "Z": 0.0
       },
       "Arguments": [
-        "isReady"
+        "IsReady"
       ],
       "Conditions": [],
       "Note": ""
@@ -644,7 +644,7 @@
         "Z": 0.0
       },
       "Arguments": [
-        "isReady"
+        "IsReady"
       ],
       "Conditions": [],
       "Note": ""
