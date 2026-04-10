@@ -426,7 +426,7 @@ public static class MultiboxUtility
 
         public static void CheckDeaths()
         {
-            if (deathConfirms.All(x => x) && Player.IsDead)
+            if (Enumerable.Range(0, MAX_SERVERS).All(i => clients[i] == null || deathConfirms[i]) && Player.IsDead)
             {
                 for (int i = 0; i < deathConfirms.Length; i++)
                     deathConfirms[i] = false;
@@ -442,7 +442,7 @@ public static class MultiboxUtility
 
         public static void CheckStepProgress()
         {
-            if((Plugin.Stage != Stage.Looping && Plugin.indexer >= 0 && Plugin.indexer < Plugin.Actions.Count && Plugin.Actions[Plugin.indexer].Tag == ActionTag.Treasure || stepConfirms.All(x => x)) && stepBlock)
+            if((Plugin.Stage != Stage.Looping && Plugin.indexer >= 0 && Plugin.indexer < Plugin.Actions.Count && Plugin.Actions[Plugin.indexer].Tag == ActionTag.Treasure || Enumerable.Range(0, MAX_SERVERS).All(i => clients[i] == null || stepConfirms[i])) && stepBlock)
             {
                 for (int i = 0; i < stepConfirms.Length; i++)
                     stepConfirms[i] = false;
