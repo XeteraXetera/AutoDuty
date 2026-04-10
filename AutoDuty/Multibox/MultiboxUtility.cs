@@ -111,7 +111,7 @@ public static class MultiboxUtility
 
     public static void IsDead(bool dead)
     {
-        if (Config.MultiBox)
+        if (!Config.MultiBox)
             return;
 
         if(!Config.Host)
