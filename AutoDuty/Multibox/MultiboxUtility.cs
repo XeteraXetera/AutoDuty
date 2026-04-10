@@ -580,6 +580,9 @@ public static class MultiboxUtility
                                 stepBlock = false;
                                 ExitDutyHelper.Invoke();
                                 break;
+                            case DEATH_RESET_KEY:
+                                stepBlock = false;
+                                break;
                             case PARTY_INVITE:
                                 SchedulerHelper.ScheduleAction("MultiboxClient PartyInvite Accept", () =>
                                                                                                     {
